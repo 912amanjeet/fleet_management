@@ -1,0 +1,42 @@
+
+.react-responsive-modal-container {
+   
+    background-color: #171C22;
+    opacity: 0.9;
+   justify-content: center;
+   display:flex;
+   align-items: center;
+
+}
+.react-responsive-modal-modal {
+width:18%;
+  height: 23%;
+    display: inline-block;
+   background-color:#ffffff;
+    border-radius: 17px;  
+}
+.modalButton{
+    background-color:#2C7EFF;
+    border: none;
+    width:150px;
+    height: 46px;
+    border-radius: 100px;
+    color: #ffffff;
+}
+.headingModal{
+    text-align: center;
+    color: #001E50;
+    font-family: "PoppinsBold";
+    font-size: 12px;
+}
+.buttonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headingModal2{
+    text-align: center;
+    color: #001E50;
+    font-family: "PoppinsMedium";
+    font-size: 14px;
+}

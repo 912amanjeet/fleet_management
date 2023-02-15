@@ -1,0 +1,131 @@
+.Login {
+display: flex;
+}
+.LoginForm{
+    width:40%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  
+}
+.adminText{
+    font-size: 32px;
+  font-family: "PoppinsRegular"; 
+}
+.imageDashBoard{
+    height:100vh;
+    width:60%;
+}
+.inputMainDiv{
+   flex-direction: column;
+   display: flex;
+   align-self:center;
+  
+   align-items: center;
+}
+.inputEmail{
+    width: 100%;
+  color: #A1B3C9;
+    border: none;
+
+}
+.inputEmail:focus{
+    outline: none;
+}
+.inputEmail::placeholder{
+    color: #A1B3C9;
+    font-family: "PoppinsRegular";
+    font-size: 16px;
+}
+.inputPassword{
+    width: 100%;
+    /* background: #FFFFFF;  */
+    border: none;
+}
+.inputPassword:focus{
+    outline: none;
+}
+.inputPassword::placeholder{
+    color: #A1B3C9;
+    font-family: "PoppinsRegular";
+    font-size: 16px;
+}
+.emailbox{
+    width: 100%;
+    height: 57px;
+    background: #ffffff;
+    border: 1px solid #DBE9F5;
+    border-radius: 12px; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.passwordbox{
+    width: 100%;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #DBE9F5;
+    border-radius: 12px; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 22px;
+}
+.remecmberMe{
+    font-size: 12px;
+    color: #A1B3C9; 
+    width: 65%;
+    margin-left: 5%;
+    font-family: "PoppinsRegular"; 
+
+}
+.checkBox{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #DBE9F5;
+    border-radius: 3px; 
+    background-color: #FFFFFF;
+
+}
+.checkRemberBox{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+   margin-top: 4%;
+
+}
+.contentForm{
+    width:70%;
+   
+}
+
+.button{
+    width: 100%;
+    background-color: #2C7EFF;
+    display: flex;
+    height: 56.96px;
+    justify-content: center;
+    border-radius: 12px;
+    align-items: center;
+    margin-top: 10%;
+    border: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family:"PoppinsRegular"
+}
+
+.forgotButton{
+    width: 40%;
+    background-color: transparent;
+    border: none;
+    color: #A1B3C9;
+   
+}
+.img-icon{
+margin-left: 3%;
+}
+/* @media (max-width:391px) {
+    .forgotButton{
+        width:10%
+    }
+} */

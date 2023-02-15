@@ -1,0 +1,47 @@
+.notificationIcon {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .globeIcon {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .ulItemList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .moreContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .profilePictureIcon {
+    width: 32px;
+    height: 32px;
+  }
+  .globalIconStyle {
+    width: 42px;
+    height: 42px;
+  }
+  .notificationIconStyle {
+    width: 42x;
+    height: 42px;
+  }
+  @media (max-width: 991px) {
+    .ulItemList {
+      align-items: stretch;
+    }
+  
+    .moreContainer {
+      align-self: flex-start;
+    }
+  }
+  

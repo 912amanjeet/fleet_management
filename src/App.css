@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "PoppinsBlack";   /*Can be any text*/
+  src: local("Poppins-Black"),
+    url("./assets/font-family/Poppins-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsItalic";   /*Can be any text*/
+  src: local("Poppins-BlackItalic"),
+    url("./assets/font-family/Poppins-BlackItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsRegular";   /*Can be any text*/
+  src: local("Poppins-Regular"),
+    url("./assets/font-family/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsExtraBold";   /*Can be any text*/
+  src: local("Poppins-ExtraBold"),
+    url("./assets/font-family/Poppins-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsBold";   /*Can be any text*/
+  src: local("Poppins-Bold"),
+    url("./assets/font-family/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsMedium";   /*Can be any text*/
+  src: local("Poppins-Medium"),
+    url("./assets/font-family/Poppins-Medium.ttf") format("truetype");
+}
+

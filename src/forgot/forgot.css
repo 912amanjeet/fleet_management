@@ -1,0 +1,124 @@
+.Login {
+    display: flex;
+    }
+    .LoginForm{
+        width:40%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .forgot-password-text{
+        font-size: 32px;
+      font-family: "PoppinsBold"; 
+      color: #080C3E;
+    }
+    .imageDashBoard{
+        height:100vh;
+        width:60%;
+    }
+    .inputMainDiv{
+       flex-direction: column;
+       display: flex;
+       align-self:center;
+      
+       align-items: center;
+    }
+    .inputEmail{
+        width: 329px;
+      color: #A1B3C9;
+        border: none;
+    
+    }
+    .inputEmail:focus{
+        outline: none;
+    }
+    .inputEmail::placeholder{
+        color: #A1B3C9;
+        font-family: "PoppinsRegular";
+        font-size: 16px;
+    }
+    .inputPassword{
+        width: 329px;
+        /* background: #FFFFFF;  */
+        border: none;
+    }
+    .inputPassword:focus{
+        outline: none;
+    }
+    .inputPassword::placeholder{
+        color: #A1B3C9;
+        font-family: "PoppinsRegular";
+        font-size: 16px;
+    }
+    .emailbox{
+        width: 405px;
+        height: 57px;
+        background: #ffffff;
+        border: 1px solid #DBE9F5;
+        border-radius: 12px; 
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 3%;
+    }
+    .passwordbox{
+        width: 405px;
+        height: 57px;
+        background: #FFFFFF;
+        border: 1px solid #DBE9F5;
+        border-radius: 12px; 
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 22px;
+    }
+   
+    .contentForm{
+        width:70%;
+    }
+    
+    .button{
+        width: 100%;
+        background-color: #2C7EFF;
+        display: flex;
+        height: 56.96px;
+        justify-content: center;
+        border-radius: 12px;
+        align-items: center;
+        margin-top: 10%;
+        border: none;
+        color: #FFFFFF;
+        font-size: 24px;
+        font-family:"PoppinsRegular"
+    }
+    
+    .forgotButton{
+        width: 30%;
+        background-color: transparent;
+        border: none;
+        color: #A1B3C9;
+    }
+    .img-icon{
+    margin-right: 2%;
+    }
+    .backButton{
+        background-color: transparent;
+        display: flex;
+        height: 56.96px;
+        justify-content: center;
+        border-radius: 12px;
+        align-items: center;
+        margin-top: 5%;
+        border: .5px solid #8E9BA6;
+        color: #080C3E;
+        font-size: 20px;
+        font-family:"PoppinsMedium";
+        width: 100%;
+    }
+    .infoText{
+        font-size: 12px;
+        font-family:"PoppinsRegular";
+        color: #939EAA;
+
+    }
+    
